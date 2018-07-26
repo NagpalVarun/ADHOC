@@ -1,0 +1,66 @@
+<html>
+<form action="/cgi-bin/main.py">
+<style>
+h1{
+	text-shadow: 2px 2px
+}
+h2{
+	
+}
+.div1{
+	background-image:url(train.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li{
+	float:left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a: hover {
+	background-color: #111
+}
+
+</style>
+<ul>
+	<li><a class="active" href="website.html">HOME</li></a>
+	<li><a class="active" href="main.html">FEEDBACK</li></a>
+	<li><a class="active" href="contact.html">ABOUT US</li></a>
+</ul>
+<!div class="div1">
+<u><h2 style="text-align:center; font-size:300%; color:black;">Feedback Form</h2></u>
+
+<!...select>
+<!option value="northern railways"NORTHERN RAILWAYS</option>
+<!option value="west railways"WEST RAILWAYS</option>
+<!option value="east railways"EAST RAILWAYS</option>
+<!option value="south railwaysSOUTH RAILWAYS</option>
+<!/select>
+
+<fieldset>
+<legend><b>Train Information</b></legend>
+<br>
+ENTER THE TRAIN NUMBER: <input type='text' name="train_num" required><br>
+ENTER THE COACH NUMBER: <input type='text' name="coach_num" required><br>
+<br>
+</fieldset>
+
+<br>
+<h3 style="font-size:130%; font-family:Trebuchet MS;">WHEN YOU FACED THE PROBLEM: <input type='date'name="date" required></h3>
+<h3 style="font-size:130%; font-family:Trebuchet MS;">PLEASE ENTER YOUR FEEDBACK: <input type='text' maxlength="2000" height="40" name="feedback" required ></h3><br><br>
+<br>
+<input type=image src="submit.png" alt="submit" width="200" height="60" >
+</form>
+</html>
