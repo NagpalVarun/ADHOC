@@ -1,0 +1,10 @@
+- hosts: 127.0.0.1
+  tasks:
+   - mail:
+       host: smtp.gmail.com
+       port: 587
+       username: pochinki64@gmail.com
+       password: "hackathon"
+       to:  poch inki <pochinki64@gmail.com>
+       subject: Food Report
+       attach: /var/www/cgi-bin/feedback.txt

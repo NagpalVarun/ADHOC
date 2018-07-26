@@ -1,0 +1,10 @@
+- hosts: 127.0.0.1
+  tasks:
+   - mail:
+       host: smtp.gmail.com
+       port: 587
+       username: vnagpal5358@gmail.com
+       password: "varun@05"
+       to:  poch inki <pochinki64@gmail.com>
+       subject: Ticket Report
+       attach: /var/www/cgi-bin/feedback.txt
